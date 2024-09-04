@@ -62,7 +62,7 @@ server {
 Next enabled/link created server block to `/etc/nginx/sites-enabled/`.
 
 ```bash
-sudo ln -s /etc/nginx/sites-available/mySite.com /etc/nginx/sites-enabled/`
+sudo ln -s /etc/nginx/sites-available/mySite.com /etc/nginx/sites-enabled/
 ```
 
 ## Start Nginx
