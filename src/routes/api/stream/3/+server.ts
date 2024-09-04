@@ -17,6 +17,8 @@ export async function GET(event) {
 		return new Response(stream, {
 			headers: {
 				"content-type": "text/event-stream",
+				"Cache-Control": "no-cache",
+				"Transfer-Encoding": "chunked",
 			},
 		});
 	} catch (error) {
